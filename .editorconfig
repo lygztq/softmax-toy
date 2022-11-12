@@ -1,0 +1,17 @@
+root = true
+
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+
+[*.py]
+indent_size = 4
+indent_style = space
+
+[*.{h,hpp,cc,cpp,c,cu,cuh}]
+indent_size = 2
+indent_style = space
+
+[CMakeLists.txt]
+indent_style = space
+indent_size = 2
